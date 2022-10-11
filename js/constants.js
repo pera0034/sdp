@@ -1,0 +1,11 @@
+export let _timer = document.querySelector('#score .timer');
+export let _timerSpan = document.querySelector('#score .timer span');
+export let _playPause = document.querySelector('#play-pause');
+export let _moveCount = document.querySelector('#score .move-count');
+export let _moveCountSpan = document.querySelector('#score .move-count span');
+export let _table = document.querySelector('#table');
+export let _upper = document.querySelector('#table .upper-row');
+export let _lower = document.querySelector('#table .lower-row');
+export let _fnd = document.querySelector('#fnd');
+export let _tab = document.querySelector('#tab');
+export let _autoWin = document.querySelector('#auto-win');

@@ -9,7 +9,8 @@ body {
    position: relative;
    padding-top: 50px;
    color: #f3f5f7;
-   background-image: url("../img/green-background.png");
+   /* background-image: url("../img/green-background.png"); */
+   background-image: url("../img/wood.jpg");
    background-position: center;
    font-family: 'Inter', sans-serif;
    overflow: hidden;
@@ -238,7 +239,7 @@ body {
    border-radius: 5px;
 }
 .card[data-selected="true"]::before {
-   box-shadow: 0 0 6px 3px #09BE8B;
+   box-shadow: 0 0 4px 2px #01ca91;
 }
 @media screen and (min-width: 768px) {
    .card::before {
